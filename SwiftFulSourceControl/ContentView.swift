@@ -14,6 +14,12 @@ struct ContentView: View {
                 ForEach(0..<10) { _ in
                     Text("yo!")
                 }
+                        .foregroundStyle(.tint)
+                    Text("New Title")
+                    
+                    Button("Subscribe Now!") {
+                        
+                }
             }
         }
     }
