@@ -9,17 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ScrollView {
-            VStack {
-                ForEach(0..<10) { _ in
-                    Text("yo!")
-                }
-                        .foregroundStyle(.tint)
-                    Text("New Title")
-                    
-                    Button("Subscribe Now!") {
-                        
-                }
+        VStack {
+            Image(systemName: "heart.fill")
+                .imageScale(.large)
+                .foregroundStyle(.red)
+            Text("Hello, World!")
+            Button("Subscribe") {
+                
             }
         }
     }
