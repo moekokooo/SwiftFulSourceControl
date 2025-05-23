@@ -10,12 +10,12 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "heart.fill")
-                .font(.largeTitle)
-                .foregroundStyle(.red)
-            Text("Hello, World!")
-            Button("Tap me") {
-                
+            ScrollView {
+                VStack {
+                    ForEach(0..<20) { _ in
+                        Text("Hello, World!")
+                    }
+                }
             }
         }
     }
