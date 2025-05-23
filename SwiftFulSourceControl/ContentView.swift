@@ -12,10 +12,17 @@ struct ContentView: View {
         ScrollView {
             VStack {
                 ForEach(0..<20) { _ in
-                  Text("yo!")
+                    Image(systemName: "globe")
+                        .font(.largeTitle)
+                        .foregroundStyle(.red)
+                    Text("New Title!")
+                    Button("Click me") {
                 }
+        
+            
+                
             }
-        }
+        
     }
 }
 
