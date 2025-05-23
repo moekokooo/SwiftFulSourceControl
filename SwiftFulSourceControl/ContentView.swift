@@ -18,10 +18,11 @@ struct ContentView: View {
                             .foregroundStyle(.red)
                         Text("New Title")
                         Button("Subscribe") {
+                            
+                        }
                     }
+                    
                 }
-            
-                
             }
         }
     }
