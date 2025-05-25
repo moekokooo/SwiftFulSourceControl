@@ -32,11 +32,15 @@ struct HomeView: View {
         VStack {
             Text("Screen 2!")
         }
-        
+        .onAppear{
+            ///
+        }
         Button("Test Button") {
             
         }
     }
+        
+        
 }
 
 #Preview {
